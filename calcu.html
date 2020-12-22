@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <link rel="stylesheet" href="calcu.css">
+ <head>
+ <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>Body Mass Index</title>
+<button><div class="button" id="HOME">HOME</div></button>
+<button><div class="button" id="LOOK">LOOK</div></button>
+<button><div class="button" id="FREE">FREE</div></button>
+<script src="./calcu.js"></script>
+<script type="text/javascript">
+ function calculaIMC()
+ {
+var peso, altura, imc, leyenda;
+ peso=document.getElementById("peso").value;
+ altura=document.getElementById("altura").value/100;
+ imc=peso/(altura*altura);
+ document.getElementById("imc").value=imc.toFixed(2);
+if(imc<=20.5)
+ {
+ leyenda="You are skinny. You must get fat " + (altura*altura*20.5-peso).toFixed(1) + " kilos";
+ }
+ else if(imc>=25.5)
+{
+leyenda="You are overweight You must lose weight "+(peso-altura*altura*25.5).toFixed(1) +" kilos";
+}
+else
+ {
+ leyenda="Are you at your ideal weight";
+ }
+document.getElementById("leyenda").value=leyenda;
+ }
+</script>
+ </head>
+ <body>
+<form name="f1" id="f1" action="">
+<fieldset>
+<legend>CALCULATION OF IDEAL WEIGHT BMI (Body Mass Index)</legend>
+ <p>Weight in kg.:
+ <input type="text" name="peso" id="peso" size="3" maxlength="4">
+ </p>
+ <p>Height in cm.:
+ <input type="text" name="altura" id="altura" size="3" maxlength="3">
+ <input type="button" value="Calculate BMI " onClick="calculaIMC()">
+ </p>
+ <p> BMI:
+ <input type="text" name="imc" id="imc" size="10" maxlength="15">
+ Suggestion:
+ <input type="text" name="leyenda" id="leyenda" size="42">
+ </p>
+</fieldset>
+</form>
+ </body>
+</html>

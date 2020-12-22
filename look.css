@@ -1,0 +1,34 @@
+body {
+    background-color: aqua;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Erica One', cursive;
+    font-size: 50px;
+    text-shadow:-2px -2px 1px rgb(229, 233, 9), 2px 2px 1px rgb(243, 207, 6), -2px 2px 1px rgba(248, 244, 12, 0.911), 2px -2px 1px rgb(0, 0, 0);
+}
+
+button {
+    background-color: red;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 140px;
+    color:#fff;
+    text-decoration:none;
+    border:2px solid #000;
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    background-color:#bb00bb;
+    border-radius:15%;
+    cursor:pointer;
+    box-shadow: 0 5px 5px -3px,0 8px 10px 1px, 0 3px 14px 2px;
+}
