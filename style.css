@@ -1,0 +1,103 @@
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-family: 'Erica One', cursive;
+    font-size: 100px;
+    text-shadow:-2px -2px 1px rgb(229, 233, 9), 2px 2px 1px rgb(243, 207, 6), -2px 2px 1px rgba(248, 244, 12, 0.911), 2px -2px 1px rgb(0, 0, 0);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(2, 17, 24);
+    font-family:'Hammersmith One', sans-serif;
+    font-size: 90px;
+    text-shadow:-2px -2px 1px rgb(229, 233, 9), 2px 2px 1px rgb(243, 207, 6), -2px 2px 1px rgba(248, 244, 12, 0.911), 2px -2px 1px rgb(0, 0, 0);
+
+}
+
+h2 {
+    text-align: justify;
+    color: rgb(2, 17, 24);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+li {
+    list-style: square;
+  }
+
+body {
+    background-color: aqua;
+}
+
+.obesity {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    background-color: red;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 140px;
+    color:#fff;
+    text-decoration:none;
+    border:2px solid #000;
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    background-color:#bb00bb;
+    border-radius:15%;
+    cursor:pointer;
+    box-shadow: 0 5px 5px -3px,0 8px 10px 1px, 0 3px 14px 2px;
+}
+
+.main {
+    background-color: lightcoral;
+}
+
+.uno {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+.cuatro {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cinco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+
+img {
+    height: 250px;
+    width: 500px;
+    margin: 30px;
+}
+
+p {
+    text-align: center;
+    color: mediumblue;
+}
